@@ -6,4 +6,7 @@ certifi
 datetime
 pymongo[srv]==3.6
 pymongo
+datetime
+scikit-learn
+
 # -e .
