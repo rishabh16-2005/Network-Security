@@ -9,7 +9,7 @@ from networksecurity.logging.logger import logging
 from networksecurity.constant.training_pipeline import TARGET_COLUMN
 from networksecurity.constant.training_pipeline import  DATA_TRANSFORMATION_IMPUTER_PARAMS
 from networksecurity.entity.artifact_entity import (
-    DataTransformatioNnArtifact,
+    DataTransformationArtifact,
     DataValidationArtifact
 )
 from networksecurity.entity.config_entity import DataTransformationConfig
@@ -81,7 +81,7 @@ class DataTransformation:
             save_numpy_array_data(self.data_transformation_config.transformed_test_file_path,test_arr)
             save_object(self.data_transformation_config.transformed_object_file_path,preprocessor_object)
 
-            data_transformation_artifacts = DataTransformatioNnArtifact(
+            data_transformation_artifacts = DataTransformationArtifact(
                 transformed_object_file_path=self.data_transformation_config.transformed_object_file_path,
                 transformed_train_file_path=self.data_transformation_config.transformed_train_file_path,
                 transformed_test_file_path=self.data_transformation_config.transformed_test_file_path
