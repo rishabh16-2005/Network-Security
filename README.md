@@ -19,11 +19,11 @@ This project implements a machine learning-based **Intrusion Detection System (I
 
 - 🧾 **Logging Support**: Built-in logging using the logging module for easier debugging and traceability.
 
-⚡ **FastAPI Integration**: Exposes the ML pipeline via REST endpoints using FastAPI for real-time access.
+- ⚡ **FastAPI Integration**: Exposes the ML pipeline via REST endpoints using FastAPI for real-time access.
 
-☁️ **Cloud Ready**: Structured for easy cloud deployment.
+- ☁️ **Cloud Ready**: Structured for easy cloud deployment.
 
-🧪 **Config-Driven**: All stages use YAML/JSON configurations for flexibility.
+- 🧪 **Config-Driven**: All stages use YAML/JSON configurations for flexibility.
 
 ---
 
